@@ -1,0 +1,543 @@
+{
+    "foodStorage": [
+        {
+            "id": 1,
+            "name": "гамбургер",
+            "description": "Сочная котлета из говядины с овощами и соусами в булочке.",
+            "price": 6.99,
+            "category": "Фастфуд",
+            "img": "https://cdn.pixabay.com/photo/2016/03/05/19/02/abstract-1238247_640.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 2,
+            "name": "картофель фри",
+            "description": "артофельные ломтики, обжаренные до золотистой корки.",
+            "price": 3.49,
+            "category": "Фастфуд",
+            "img": "https://cdn.pixabay.com/photo/2018/06/25/16/57/potato-3497393_640.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 3,
+            "name": "классический сэндвич blt",
+            "description": "Сэндвич с беконом, листьями салата и помидорами на тосте.",
+            "price": 7.49,
+            "category": "Сэндвичи",
+            "img": "https://i1.wp.com/recipegirl.com/wp-content/uploads/2007/03/BLT-1.jpeg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 4,
+            "name": "хот-дог",
+            "description": "Популярное Американское блюдо с горячими сосисками в булочке.",
+            "price": 4.99,
+            "category": "Фастфуд",
+            "img": "https://cdn.pixabay.com/photo/2014/10/01/13/40/hot-dog-468401_640.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 5,
+            "name": "кукурузный хлеб",
+            "description": "Традиционный Американский хлеб из кукурузной муки.",
+            "price": 2.99,
+            "category": "Хлеб и выпечка",
+            "img": "https://cdn.pixabay.com/photo/2015/04/24/20/04/corn-bread-738244_1280.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 6,
+            "name": "клам-чаудер",
+            "description": "Американский суп с моллюсками, картофелем и сливками.",
+            "price": 8.99,
+            "category": "Супы",
+            "img": "https://s1.eda.ru/StaticContent/Photos/120213175629/180501205806/p_O.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 7,
+            "name": "барбекю-ребра",
+            "description": "Свиные ребра, обжаренные с барбекю-соусом и приправами.",
+            "price": 12.49,
+            "category": "Мясные блюда",
+            "img": "https://cdn.pixabay.com/photo/2022/08/25/17/41/spare-ribs-7410911_640.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 8,
+            "name": "яблочный пирог",
+            "description": "Классический Американский пирог с яблоками и корицей.",
+            "price": 5.79,
+            "category": "Десерты",
+            "img": "https://cdn.pixabay.com/photo/2020/08/11/13/58/apple-pie-5479993_640.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 9,
+            "name": "картофельный салат",
+            "description": "Салат с картофелем, майонезом и зеленью.",
+            "price": 4.29,
+            "category": "Салаты",
+            "img": "https://cdn.pixabay.com/photo/2015/06/23/11/21/salad-818584_640.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 10,
+            "name": "фрайд чикен",
+            "description": "Жареная курятина в хрустящей панировке.",
+            "price": 8.99,
+            "category": "Фастфуд",
+            "img": "https://cdn.pixabay.com/photo/2016/03/05/21/39/batter-1239027_640.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 11,
+            "name": "картофельный чипсы",
+            "description": "Тонко нарезанный картофель, обжаренный до хрустящей текстуры.",
+            "price": 2.99,
+            "category": "Закуски",
+            "img": "https://cdn.pixabay.com/photo/2017/08/04/14/33/food-2580200_640.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 12,
+            "name": "клубничный молочный коктейль",
+            "description": "Свежие клубники с молоком и сахаром, взбитые в коктейль.",
+            "price": 4.49,
+            "category": "Напитки",
+            "img": "https://cdn.pixabay.com/photo/2023/09/21/11/25/strawberry-milk-shake-8266484_1280.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 13,
+            "name": "филадельфия чизстейк",
+            "description": "Сэндвич с нарезанным мясом и сыром, запеченный в булочке.",
+            "price": 9.99,
+            "category": "Сэндвичи",
+            "img": "https://cdn.inmyroom.ru/uploads/food_recipe/teaser/dd/dd9d/dd9dac60-8e73-4e0c-932a-2b4ad75cae77.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 14,
+            "name": "картофельное пюре",
+            "description": "Пюре из картофеля с маслом и молоком.",
+            "price": 3.79,
+            "category": "Гарниры",
+            "img": "https://cdn.pixabay.com/photo/2016/08/08/20/41/burning-love-1579246_640.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 15,
+            "name": "мексиканские такос",
+            "description": "Традиционные мексиканские тортильи с начинкой из мяса и овощей.",
+            "price": 7.99,
+            "category": "Мексиканская",
+            "img": "https://cdn.pixabay.com/photo/2017/11/13/03/56/mango-catfish-taco-2944558_640.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 16,
+            "name": "пекан пай",
+            "description": "Десертный пирог с пекановыми орехами и карамелью.",
+            "price": 6.29,
+            "category": "Десерты",
+            "img": "https://cdn.pixabay.com/photo/2023/07/20/11/00/pie-8139063_640.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 17,
+            "name": "кукуруза на гриле",
+            "description": "Свежая кукуруза, обжаренная на гриле с маслом и специями.",
+            "price": 4.99,
+            "category": "Закуски",
+            "img": "https://cdn.pixabay.com/photo/2016/02/13/18/20/corn-1198343_1280.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 18,
+            "name": "классический коктейль Манхэттен",
+            "description": "Классический коктейль с виски, вермутом и ангостурой.",
+            "price": 8.49,
+            "category": "Напитки",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/a/a1/A_Manhattan.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 19,
+            "name": "чили кон карне",
+            "description": "Острое мясное блюдо с фасолью, приправами и перцем.",
+            "price": 9.79,
+            "category": "Мексиканская",
+            "img": "https://cdn.pixabay.com/photo/2014/06/28/14/14/chili-con-carne-378952_640.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 20,
+            "name": "куриные крылышки",
+            "description": "Жареные куриные крылышки с соусом на выбор.",
+            "price": 7.49,
+            "category": "Закуски",
+            "img": "https://cdn.pixabay.com/photo/2017/09/03/01/17/wings-2709068_640.jpg",
+            "kitchen": "Американская кухня"
+        },
+        {
+            "id": 21,
+            "name": "суши ролл с лососем",
+            "description": "Ролл с лососем и огурцом, обвёрнутый в водоросли нори.",
+            "price": 9.99,
+            "category": "Суши",
+            "img": "https://cdn.pixabay.com/photo/2023/05/17/14/13/ai-generated-8000302_640.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 22,
+            "name": "пекинская утка",
+            "description": "Запеченная утка с хрустящей кожей, подается с лепешками и соусом.",
+            "price": 14.49,
+            "category": "Главные блюда",
+            "img": "https://cdn.pixabay.com/photo/2017/08/11/05/53/peking-duck-2629784_640.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 23,
+            "name": "том ям суп",
+            "description": "Традиционный тайский суп с креветками и кокосовым молоком.",
+            "price": 8.79,
+            "category": "Супы",
+            "img": "https://cdn.pixabay.com/photo/2016/07/28/19/53/food-1549252_640.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 24,
+            "name": "спринг роллы",
+            "description": "Легкие роллы из рисовой бумаги с овощами и маринованными креветками.",
+            "price": 6.49,
+            "category": "Закуски",
+            "img": "https://cdn.pixabay.com/photo/2017/08/25/15/10/egg-roll-2680478_640.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 25,
+            "name": "пад тай",
+            "description": "Тайский лапшевый ужин с креветками и ароматными специями.",
+            "price": 10.99,
+            "category": "Главные блюда",
+            "img": "https://cdn.pixabay.com/photo/2019/08/16/09/31/pad-thai-4409871_640.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 26,
+            "name": "суши с огурцом и авокадо",
+            "description": "Роллы с огурцом, авокадо и кунжутом.",
+            "price": 7.29,
+            "category": "Суши",
+            "img": "https://recipe-catalog.ru/wp-content/uploads/2018/07/roll-with-cucumb-and-avocado.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 27,
+            "name": "жареный рис с овощами",
+            "description": "Рис, обжаренный с овощами, соевым соусом и яйцом.",
+            "price": 6.99,
+            "category": "Гарниры",
+            "img": "https://cdn.pixabay.com/photo/2018/03/23/08/27/thai-fried-rice-3253027_1280.jpg"
+        },
+        {
+            "id": 28,
+            "name": "рамен",
+            "description": "Японская лапшевая супчик с бульоном, мясом и яйцом.",
+            "price": 9.99,
+            "category": "Супы",
+            "img": "https://cdn.pixabay.com/photo/2017/04/04/00/36/ramen-2199962_640.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 29,
+            "name": "жареные устрицы с чесноком",
+            "description": "Устрицы, обжаренные с чесноком и специями.",
+            "price": 12.79,
+            "category": "Закуски",
+            "img": "https://www.boiltime.ru/wp-content/uploads/2022/02/oysters-kilpatrick-recipe-256024-hero-01-bc0816952ff34365a1b855460bc2b1e3-330x200.png",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 30,
+            "name": "шашлык с курицей и терияки",
+            "description": "Шашлык с куриной грудкой и соусом терияки.",
+            "price": 11.49,
+            "category": "Главные блюда",
+            "img": "https://cs11.pikabu.ru/post_img/big/2019/04/15/10/1555350920173041540.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 31,
+            "name": "кунжутные креветки",
+            "description": "Креветки, обваленные в кунжуте и обжаренные до золотистой корки.",
+            "price": 11.99,
+            "category": "Закуски",
+            "img": "https://lh6.googleusercontent.com/-R71Own8ppwE/TWxqWZr8XsI/AAAAAAAAAm0/vbDTxdI1d6Y/s1600/IMG_2066.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 32,
+            "name": "салат с манго и креветками",
+            "description": "Свежий салат с манго, креветками и ароматным соусом.",
+            "price": 9.29,
+            "category": "Салаты",
+            "img": "https://img.iamcook.ru/2020/upl/recipes/cat/u-015c3def3423b71053c72566ac39a17d.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 33,
+            "name": "пекинские пельмени",
+            "description": "Пельмени с мясной начинкой и ароматными специями.",
+            "price": 7.49,
+            "category": "Закуски",
+            "img": "https://menunedeli.ru/wp-content/uploads/2014/02/43/Gotovye-kitajskie-pelmeni-rezultat.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 34,
+            "name": "суши с лососем и авокадо",
+            "description": "Роллы с лососем, авокадо и кунжутом.",
+            "price": 8.99,
+            "category": "Суши",
+            "img": "https://api.horoshiki.ru/storage/products/46/og_image.png",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 35,
+            "name": "тайский креветочный карри",
+            "description": "Тайское карри с креветками и кокосовым молоком.",
+            "price": 12.49,
+            "category": "Главные блюда",
+            "img": "https://ic.pics.livejournal.com/ca_ira/26929987/373720/373720_original.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 36,
+            "name": "фунчоза с овощами",
+            "description": "Фунчоза с овощами и соевым соусом.",
+            "price": 6.99,
+            "category": "Гарниры",
+            "img": "https://static.1000.menu/img/content-v2/d9/6a/33993/salat-funchoza-s-ovoshchami-po-koreiski_1647766652_0_max.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 37,
+            "name": "жареный банан",
+            "description": "Банан, обжаренный в тесте и посыпанный сахаром.",
+            "price": 4.79,
+            "category": "Десерты",
+            "img": "https://shuba.life/static/content/thumbs/740x493/d/91/rzkd4n---c740x493x50px50p-c740x493x50px50p-up--52d2280e00c5f9eb4fa6aab4fccfe91d.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 38,
+            "name": "корейская барбекю говядина",
+            "description": "Говядина, обжаренная с корейскими приправами и соусами.",
+            "price": 13.99,
+            "category": "Главные блюда",
+            "img": "https://vkusnyy.top/wp-content/uploads/2021/11/2f1676cd9dce6f40e755f917f81174fe.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 39,
+            "name": "рисовые блинчики с мясом",
+            "description": "Рисовые блинчики с мясной начинкой и соусом.",
+            "price": 7.99,
+            "category": "Закуски",
+            "img": "https://img-global.cpcdn.com/recipes/26c2a1e31886a421/680x482cq70/blinchiki-iz-risovoi-muki-s-miasom-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B5-%D1%84%D0%BE%D1%82%D0%BE-%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D0%B0.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 40,
+            "name": "хоумин",
+            "description": "Традиционный китайский суп с мясом и лапшой.",
+            "price": 8.29,
+            "category": "Супы",
+            "img": "https://www.gastronom.ru/binfiles/images/20220907/b7f6fa22.jpg",
+            "kitchen": "Азиатская кухня"
+        },
+        {
+            "id": 41,
+            "name": "итальянская паста с томатным соусом",
+            "description": "Паста с томатным соусом и пармезаном.",
+            "price": 9.99,
+            "category": "Паста",
+            "img": "https://s1.eda.ru/StaticContent/Photos/130508123453/130517002036/p_O.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 42,
+            "name": "французский луковый суп",
+            "description": "Традиционный французский суп с карамелизованным луком и сыром.",
+            "price": 7.49,
+            "category": "Супы",
+            "img": "https://www.maggi.ru/data/images/recept/img640x500/recept_1028_b2ap.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 43,
+            "name": "британский стейк и картофель фри",
+            "description": "Стерлинговый стейк с картофельными ломтиками, подается с соусом.",
+            "price": 15.99,
+            "category": "Главные блюда",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Flickr_-_cyclonebill_-_B%C3%B8f_med_pommes_frites_%281%29.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 44,
+            "name": "немецкая братвурст",
+            "description": "Поджаренные свиные колбаски, подается с горчицей и картофельным салатом.",
+            "price": 8.79,
+            "category": "Главные блюда",
+            "img": "https://chefscatering.by/wp-content/uploads/2022/09/nemeckie-kolbaski-bratvurst.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 45,
+            "name": "греческий салат",
+            "description": "Салат с огурцом, помидорами, оливками и фетой.",
+            "price": 6.99,
+            "category": "Салаты",
+            "img": "https://menunedeli.ru/wp-content/uploads/2022/08/16B637CC-8E8B-4725-8953-2B33BC461A39-scaled.jpeg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 46,
+            "name": "испанская паэлья",
+            "description": "Традиционное испанское рисовое блюдо с морепродуктами и овощами.",
+            "price": 12.99,
+            "category": "Главные блюда",
+            "img": "https://static.1000.menu/img/content-v2/4a/4a/4542/paelya-s-moreproduktami_1602493677_18_max.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 47,
+            "name": "португальский баклажан",
+            "description": "Баклажан, запеченный с помидорами и сыром.",
+            "price": 7.79,
+            "category": "Закуски",
+            "img": "https://etexpress.ru/upload/iblock/4b2/ai75b2atu6zx69zzipaxnkx7w3c7lpqo.webp",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 48,
+            "name": "шведские котлеты",
+            "description": "Котлеты из фарша, подается с картофельным пюре и желейным соусом.",
+            "price": 10.49,
+            "category": "Главные блюда",
+            "img": "https://img.freepik.com/premium-photo/swedish-meatballs-with-mashed-potatoes-and-lingonberry-jam_259258-750.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 49,
+            "name": "ирландский стаут-пирог",
+            "description": "Десертный пирог с ирландским стаутом и шоколадом.",
+            "price": 6.79,
+            "category": "Десерты",
+            "img": "https://www.edim.tv/img/small/irish-meat-pie.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 50,
+            "name": "итальянская минестроне",
+            "description": "Итальянский суп с овощами и макаронами.",
+            "price": 8.29,
+            "category": "Супы",
+            "img": "https://www.gastronom.ru/binfiles/images/20180411/b6657d69.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 51,
+            "name": "фетуччини Альфредо",
+            "description": "Паста фетуччини с соусом Альфредо и пармезаном.",
+            "price": 10.99,
+            "category": "Паста",
+            "img": "https://static.insales-cdn.com/images/articles/1/3237/1289381/000.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 52,
+            "name": "испанская тортилья",
+            "description": "Традиционный испанский омлет с картофелем и луком.",
+            "price": 7.29,
+            "category": "Завтраки",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Tortilla_de_Patatas_%28Corte_transversal%29.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 53,
+            "name": "финская лосось гриль",
+            "description": "Лосось, запеченный на гриле с лимоном и травами.",
+            "price": 14.49,
+            "category": "Главные блюда",
+            "img": "https://s1.eda.ru/StaticContent/Photos/120213185439/120213185815/p_O.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 54,
+            "name": "итальянский антипасто",
+            "description": "Ассорти из мясных деликатесов, сыров и оливок.",
+            "price": 12.99,
+            "category": "Закуски",
+            "img": "https://i.pinimg.com/736x/7b/eb/5f/7beb5f685e4296ecce74aed2f0fcdfc5.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 55,
+            "name": "греческая муссака",
+            "description": "Греческое блюдо с баклажанами, мясом и бешамелью.",
+            "price": 11.79,
+            "category": "Главные блюда",
+            "img": "https://gotovim-doma.ru/images/recipe/3/4b/34b85fa9809c218d98efc7aa6aa82344.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 56,
+            "name": "английский бутерброд с огурцами",
+            "description": "Традиционный английский бутерброд с огурцами и маслом.",
+            "price": 5.99,
+            "category": "Завтраки",
+            "img": "https://www.gastronom.ru/binfiles/images/20210525/b6db2910.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 57,
+            "name": "норвежский лосось с картофельным салатом",
+            "description": "Лосось, запеченный с лимоном и подается с картофельным салатом.",
+            "price": 13.29,
+            "category": "Главные блюда",
+            "img": "https://www.gastronom.ru/binfiles/images/00000210/00075915.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 58,
+            "name": "польская капуста в белом вине",
+            "description": "Капуста, тушеная в белом вине с картофелем.",
+            "price": 7.49,
+            "category": "Гарниры",
+            "img": "https://cdn.tveda.ru/thumbs/dd9/dd959cbbd8f481b2ebea90c43403fb7c/2ca994ca908ad01c85f5afe9cef5ef23.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 59,
+            "name": "швейцарский сырный фондю",
+            "description": "Фондю из смеси сыров, подается с кусками хлеба.",
+            "price": 11.49,
+            "category": "Закуски",
+            "img": "https://superski.ru/swissplus/fondue-v.jpg",
+            "kitchen": "Европейская кухня"
+        },
+        {
+            "id": 60,
+            "name": "испанский крем-каталан",
+            "description": "Десерт с карамельной коркой и ванильным кремом.",
+            "price": 6.99,
+            "category": "Десерты",
+            "img": "https://s1.eda.ru/StaticContent/Photos/151115183326/151124183515/p_O.jpg",
+            "kitchen": "Европейская кухня"
+        }
+    ]
+}

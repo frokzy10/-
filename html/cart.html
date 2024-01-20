@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_container">
+            <div class="right-side">
+                <a href="/index.html">
+                    <img src="https://cdn.vectorstock.com/i/preview-1x/73/82/food-logo-vector-38377382.jpg" alt=""
+                        class="logo">
+                </a>
+            </div>
+            <nav class="navbar">
+                <div class="left-side-header">
+                    <form class="search-box">
+                        <fieldset class="field-container">
+                            <input type="text" placeholder="Search..." name="name" class="field" />
+                        </fieldset>
+                    </form>
+                </div>
+            </nav>
+            <div class="header-column">
+                <i class="fa-solid fa-magnifying-glass" id="searchSystem"></i>
+                <i class="fa-solid fa-user"></i>
+                <div class="iconCart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <div class="totalQuantity">0</div>
+                </div>
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                <div class="submenu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <span class="submenu_close">
+                            X
+                        </span>
+                        <div class="uer-info">
+                            <h2>Information</h2>
+                        </div>
+                        <hr>
+                        <a href="#" class="sub-menu-link">
+                            <i class="fa-solid fa-cookie-bite"></i>
+                            <p>О нас</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <i class="fa-solid fa-cookie-bite"></i>
+                            <p>Контакты</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <i class="fa-solid fa-cookie-bite"></i>
+                            <p>Даур</p>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- sidebar//////// -->
+    <aside>
+        <div class="sidebar-logo">
+            <span class="sidebar-menu-icon">
+                <i id="sideBtn" class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+            </span>
+            <a href="#">
+                <!-- <img class="sidebar-logo-link" src="/food-logo.png" alt=""> -->
+                <span class="sidebar-span">Filter</span>
+            </a>
+        </div>
+        <div class="side-menu-wrap">
+            <ul>
+                <li class="nav-item">
+                    <a href="#">
+                        <span class="sBtn-text">Категория товара</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <ul class="side-menu firstFilter" id="categories">
+                        <li><a href="#">Фастфуд</a></li>
+                        <li><a href="#">Сэндвичи</a></li>
+                        <li><a href="#">Супы</a></li>
+                        <li><a href="#">Хлеб и выпечка</a></li>
+                        <li><a href="#">Мясные блюда</a></li>
+                        <li><a href="#">Салаты</a></li>
+                        <li><a href="#">Закуски</a></li>
+                        <li><a href="#">Суши</a></li>
+                        <li><a href="#">Главные блюда</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">
+                        <span class="sBtn-text">Вид кухни</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <ul class="side-menu secondfilter" id="kitchens">
+                        <li><a href="#">Европейская кухня</a></li>
+                        <li><a href="#">Американская кухня</a></li>
+                        <li><a href="#">Азиатская кухня</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="item submit sidebar-btn">
+                <button id="filterButton">Search</button>
+            </div>
+        </div>
+
+    </aside>
+    <div class="all">
+
+        <div class="container">
+            <form class="filter">
+                <div class="item">
+                    <label>Категория</label>
+                    <select name="category">
+                        <option value="">---</option>
+                        <option value="Фастфуд">Фастфуд</option>
+                        <option value="Сэндвичи">Сэндвичи</option>
+                        <option value="Хлеб и выпечка">Хлеб и выпечка</option>
+                        <option value="Супы">Супы</option>
+                        <option value="Мясные блюда">Мясные блюда</option>
+                        <option value="Десерты">Десерты</option>
+                        <option value="Салаты">Салаты</option>
+                        <option value="Закуски">Закуски</option>
+                        <option value="Напитки">Напитки</option>
+                        <option value="Гарниры">Гарниры</option>
+                        <option value="Мексиканская">Мексиканская</option>
+                        <option value="Суши">Суши</option>
+                        <option value="Главные блюда">Главные блюда</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label>Кухня</label>
+                    <select name="kitchen">
+                        <option value="">---</option>
+                        <option value="Американская кухня">Американская кухня</option>
+                        <option value="Европейская кухня">Европейская кухня</option>
+                        <option value="Азиатская кухня">Азиатская кухня</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label>Мин.Цена</label>
+                    <input name="minPrice" type="number">
+                </div>
+                <div class="item">
+                    <label>Макс.Цена</label>
+                    <input placeholder="1$-15$" name="maxPrice" type="number">
+                </div>
+                <div class="item submit">
+                    <button>Search</button>
+                </div>
+            </form>
+            <div class="countResults">
+                Найдено <b id="count"></b> позиций
+            </div>
+
+            <div class="listProduct">
+                <button class="update-cart"></button>
+            </div>
+        </div>
+
+        <div class="cart">
+            <h2>
+                CART
+            </h2>
+
+            <div class="listCart"></div>
+
+            <div class="buttons">
+                <div class="close">
+                    CLOSE
+                </div>
+                <div class="checkout">
+                    <a href="/html/checkout.html">CHECKOUT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/index.js"></script>
+    <script src="../js/cart.js"></script>
+
+</body>
+
+</html>

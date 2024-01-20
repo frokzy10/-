@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_container">
+            <div class="right-side">
+                <a href="/index.html">
+                    <img src="https://cdn.vectorstock.com/i/preview-1x/73/82/food-logo-vector-38377382.jpg" alt=""
+                class="logo">
+                </a>
+            </div>
+            <nav class="navbar" style="display: none;">
+                <div class="left-side-header">
+                    <form class="search-box">
+                        <fieldset class="field-container">
+                            <input type="text" placeholder="Search..." name="Название" class="field" />
+                            <div class="icons-container">
+                                <div class="icon-close">
+                                    <div class="x-up"></div>
+                                    <div class="x-down"></div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </nav>
+            <div class="header-column">
+                <i class="fa-solid fa-magnifying-glass" id="searchSystem" style="display: none;"></i>
+                <i class="fa-solid fa-user"></i>
+                <a href="/html/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                <div class="submenu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <span class="submenu_close">
+                            X
+                        </span>
+                        <div class="uer-info">
+                            <h2>Information</h2>
+                            <img src="https://www.bahroma1.ru/templates/bahroma1/img/slider/2300x1500_61b11ccbd3b30.jpg"
+                                alt="">
+                        </div>
+                        <hr>
+                        <a href="#" class="sub-menu-link">
+                            <i class="fa-solid fa-cookie-bite"></i>
+                            <p>О нас</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <i class="fa-solid fa-cookie-bite"></i>
+                            <p>Контакты</p>
+                            <span></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <i class="fa-solid fa-cookie-bite"></i>
+                            <p>Даур</p>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="slider">
+        <div class="slide_container">
+            <div class="arrow l" onclick="prev()">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="slide slide-1">
+                <div class="caption">
+                    <span class="slide-text">
+                        Насладитесь нашими блюдами
+                    </span>
+                    <h2>
+                        Enjoy with our product
+                    </h2>
+                    <button class="slide-btn">Насладитесь</button>
+
+                </div>
+            </div>
+            <div class="slide slide-2">
+                <div class="caption">
+                    <span class="slide-text">
+                        Хотите знать о новых блюдах
+                    </span>
+                    <h2>
+                        Sign in our website
+                    </h2>
+                    <button class="slide-btn">Sign</button>
+                </div>
+            </div>
+            <div class="slide slide-3">
+                <div class="caption">
+                    <span class="slide-text">
+                        Насладитесь нашими блюдами
+                    </span>
+                    <h2>
+                        Enjoy with our product
+                    </h2>
+                    <button class="slide-btn">Насладитесь</button>
+                </div>
+            </div>
+            <div class="arrow r" onclick="next()">
+                <i class="fa-solid fa-chevron-right"></i></ </div>
+            </div>
+    </section>
+    <section class="gallery">
+        <div class="gallery_container">
+            <div class="filter_buttons">
+                <button class="gallery-buttons activeButtons" data-name="All">
+                    Всё
+                </button>
+                <button class="gallery-buttons" data-name="Soupes">
+                    Супы
+                </button>
+                <button class="gallery-buttons" data-name="Fast Food">
+                    Фаст Фуд
+                </button>
+                <button class="gallery-buttons" data-name="Meat">
+                    Мясо
+                </button>
+            </div>
+            <hr>
+            <div class="filterable_cards">
+                <div class="card" data-name="Fast Food">
+                    <img src="https://www.thecookierookie.com/wp-content/uploads/2023/04/featured-stovetop-burgers-recipe.jpg" alt="">
+                    <div class="card_body">
+                        <h6 class="card_title">Burger</h6>
+                    </div>
+                </div>
+                <div class="card" data-name="Fast Food">
+                    <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_27/1586836/hotdogs-te-square-200702.jpg"
+                        alt="">
+                    <div class="card_body">
+                        <h6 class="card_title">HotDog</h6>
+                    </div>
+                </div>
+                <div class="card" data-name="Fast Food">
+                    <img src="https://eda.ru/img/eda/c390x390/s1.eda.ru/StaticContent/Photos/170215184917/200722222523/p_O.jpg"
+                        alt="">
+                    <div class="card_body">
+                        <h6 class="card_title">Shaurma</h6>
+                    </div>
+                </div>
+                <div class="card" data-name="Fast Food">
+                    <img src="https://recipe30.com/wp-content/uploads/2020/05/Fried-chicken.jpg"
+                        alt="">
+                    <div class="card_body">
+                        <h6 class="card_title">Fried Chicken</h6>
+                    </div>
+                </div>
+
+                <!-- Meat///////// -->
+                <div class="card" data-name="Meat">
+                    <img src="https://i.pinimg.com/736x/da/88/12/da8812565e031c79c33693115018b040.jpg" alt="">
+                    <div class="card_body">
+                        <h6 class="card_title">Barbeque</h6>
+                    </div>
+                </div>
+                <div class="card" data-name="Meat">
+                    <img src="https://www.mashed.com/img/gallery/2-ways-to-tell-if-your-meat-is-cooked-without-cutting-it/-1484683588.jpg"
+                        alt="">
+                    <div class="card_body">
+                        <h6 class="card_title">Steak</h6>
+                    </div>
+                </div>
+                <div class="card" data-name="Meat">
+                    <img src="https://e1.edimdoma.ru/data/posts/0002/4755/24755-ed4_wide.jpg?1651762197" alt="">
+                    <div class="card_body">
+                        <h6 class="card_title">Kebap</h6>
+                    </div>
+                </div>
+                <div class="card" data-name="Meat">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/peach-balsamic-grilled-chicken-5-1662057070.jpg" alt="">
+                    <div class="card_body">
+                        <h6 class="card_title">Bird</h6>
+                    </div>
+                </div>
+
+                <!-- Fried ///////// -->
+                <div class="card" data-name="Soupes">
+                    <img src="https://e1.edimdoma.ru/data/recipes/0004/5299/45299-ed4_wide.jpg?1636554916" alt="">
+                    <div class="card_body">
+                        <h6 class="card_title">Borsh</h6>
+                    </div>
+                </div>
+                <div class="card" data-name="Soupes">
+                    <img src="https://recette.supertoinette.com/150844/b/veloute-de-carottes-au-curry-et-lait-de-coco.jpg" alt="">
+                    <div class="card_body">
+                        <h6 class="card_title">Moisess</h6>
+                    </div>
+                </div>
+                <div class="card" data-name="Soupes">
+                    <img src="https://img1.russianfood.com/dycontent/images_upl/325/big_324608.jpg" alt="">
+                    <div class="card_body">
+                        <h6 class="card_title">Uha</h6>
+                    </div>
+                </div>
+                <div class="card" data-name="Soupes">
+                    <img src="https://cdn.lifehacker.ru/wp-content/uploads/2020/09/17_1600098306-e1600098386816-1280x640.jpg" alt="">
+                    <div class="card_body">
+                        <h6 class="card_title">Nohud</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/index.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+
+</html>
